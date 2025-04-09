@@ -37,8 +37,8 @@ main{
     min-height:70vh;
 }
 
-.menu-flex
-{    display: flex;
+.menu-flex{   
+    display: flex;
     flex-direction: row;
     justify-content: space-around;
     color: #fff;
