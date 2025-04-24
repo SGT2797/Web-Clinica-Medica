@@ -1,0 +1,29 @@
+@media (max-width: 768px)
+    {.main-navbar
+      .navbar-container
+        {flex-direction: column;
+        align-items: flex-start}
+
+        .toggle-label
+          {display: flex;
+          margin-bottom: 1rem}
+
+        .navbar-menu
+          {width: 100%}
+
+          .navbar-links
+            {flex-direction: column;
+            width: 100%;
+            display: none}
+
+        .navbar-toggle:checked ~ .navbar-menu .navbar-links
+          {display: flex}
+    }
+
+    .img-responsive
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }

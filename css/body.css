@@ -1,0 +1,15 @@
+.body {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.intro {
+  margin-top: 45px;
+  margin-block-end: 30px;
+}
+
+/*# sourceMappingURL=body.css.map */

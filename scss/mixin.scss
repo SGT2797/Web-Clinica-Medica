@@ -1,0 +1,8 @@
+@mixin full-width-centered($height: auto, $margin-end: 0) {
+    width: 100%;
+    height: $height;
+    text-align: center;
+    margin-block-end: $margin-end;
+  }
+  
+  
