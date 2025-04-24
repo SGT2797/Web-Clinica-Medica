@@ -9,4 +9,15 @@
         object-fit: cover;
         display: block;
       }
+      @media (max-width: 768px) {
+        .banner img {
+          height: 180px;
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .banner img {
+          height: 140px;
+        }
     }
+  }
