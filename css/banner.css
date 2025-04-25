@@ -3,6 +3,7 @@
   overflow: hidden;
   margin: 0;
   padding: 0;
+  display: cover;
 }
 .banner img {
   width: 100%;

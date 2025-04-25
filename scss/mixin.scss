@@ -1,8 +1,17 @@
-@mixin full-width-centered($height: auto, $margin-end: 0) {
-    width: 100%;
-    height: $height;
-    text-align: center;
-    margin-block-end: $margin-end;
+@mixin responsive-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+
+  @media (max-width: 768px) {
+    height: 180px;
   }
+
+  @media (max-width: 400px) {
+    height: 140px;
+  }
+}
+
   
   
